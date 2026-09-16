@@ -1,32 +1,35 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <title>YOUR TIMELINE TITLE</title>
+<!DOCTYPE html> <html lang="en"> <head> <meta charset="UTF-8">
+<title>YOUR TIMELINE TITLE</title>
 
-  <link rel="stylesheet"
-        href="https://cdn.knightlab.com/libs/timeline3/latest/css/timeline.css">
+<!-- TimelineJS default stylesheet -->
+<link
+    rel="stylesheet"
+    href="https://cdn.knightlab.com/libs/timeline3/latest/css/timeline.css"
+>
 
-</head>
+<!-- Custom stylesheet -->
+<link
+    rel="stylesheet"
+    href="timeline.css"
+>
 
-<body>
+</head> <body>
+<div
+    id="timeline-embed"
+    style="width: 100%; height: 650px;"
+></div>
 
-<div id="timeline-embed" style="width: 100%; height: 650px;"></div>
+<!-- TimelineJS library -->
+<script
+    src="https://cdn.knightlab.com/libs/timeline3/latest/js/timeline.js"
+></script>
 
-<script src="https://cdn.knightlab.com/libs/timeline3/latest/js/timeline.js"></script>
-
+<!-- Create TimelineJS timeline -->
 <script>
-var timeline = new TL.Timeline(
-  "timeline-embed",
-  "https://docs.google.com/spreadsheets/d/1GuA_HPm03vSqu72KiyHeP8ez_8Rdi28CkUat9EHPUAI/edit?gid=1512886925#gid=1512886925",
-  {
-    timenav_position: "top",
-    initial_zoom: 2,
-    width: "100%",
-    height: "650"
-  }
-);
+    timeline = new TL.Timeline(
+        'timeline-embed',
+        'https://docs.google.com/spreadsheets/d/e/2PACX-1vSj3pXlJGprrhPBdIRA5DraiQ5PAmnHCN3EhETQyFn5Z4aRYlkqtYSKQ0kOs6NYYkO-vhlY0tEnJAg2/pubhtml'
+    );
 </script>
 
-</body>
-</html>
+</body> </html>
