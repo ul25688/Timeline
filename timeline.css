@@ -28,11 +28,11 @@ or .tl-timemarker.tl-timemarker-active (for the current slide). */
 making it visually distinct from the inactive markers which stay at #EFCA77 (lighter yellow).*/
 
 .tl-timemarker.tl-timemarker-active .tl-timemarker-content-container {
-    background-color: #EFCA77 !important;
+    background-color: #e6b95f !important;  /* darker golden for active */
 }
 
 /*The headline text in the active slide's flag is set to #0F4D81 (your navy blue), keeping it consistent with your hover state color.*/
 
 .tl-timemarker.tl-timemarker-active .tl-timemarker-content-container h2.tl-headline {
-    color: #213A5E !important;
+    color: #0F4D81 !important;  /* navy blue text */
 }
