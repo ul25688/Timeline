@@ -61,7 +61,7 @@ so style line-left only to avoid double-thickening those markers. */
 }
 
 /* Hide minor ticks */
-.tl-timeaxis-minor .tl-timeaxis-tick:before {
+.tl-timeaxis-minor {
     display: none !important;
 }
 
