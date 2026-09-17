@@ -36,3 +36,11 @@ making it visually distinct from the inactive markers which stay at #EFCA77 (lig
 .tl-timemarker.tl-timemarker-active .tl-timemarker-content-container h2.tl-headline {
     color: #0F4D81 !important;  /* navy blue text */
 }
+
+.tl-timemarker.tl-timemarker-active .tl-timemarker-content-container:hover {
+    background-color: #d4a856 !important;  /* even darker on hover */
+}
+
+.tl-timemarker.tl-timemarker-active .tl-timemarker-content-container:hover h2.tl-headline {
+    color: #213A5E !important;  /* darker text on hover */
+}
