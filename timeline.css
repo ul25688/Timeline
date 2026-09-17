@@ -1,10 +1,12 @@
+/* tl-timenav : The timeline element. Change the background color here.*/
+
 .tl-timenav {
     background-color: #0F4D81 !important;
 }
 
-.tl-timenav:hover {
-    background-color: #0d3d66 !important;
-}
+/* tl-timemarker-content-container: The flag of the marker. Set the flag's background color and text color here. 
+When writing styles for this selector, preface this selector with .tl-timemarker (for slides other than the current slide) 
+or .tl-timemarker.tl-timemarker-active (for the current slide). */
 
 .tl-timemarker .tl-timemarker-content-container {
     background-color: #EFCA77 !important;
@@ -19,5 +21,14 @@
 }
 
 .tl-timemarker .tl-timemarker-content-container:hover h2.tl-headline {
+    color: #0F4D81 !important;
+}
+
+/*Add styles for the active slide*/
+.tl-timemarker.tl-timemarker-active .tl-timemarker-content-container {
+    background-color: #e6b95f !important;  /* or a different color */
+}
+
+.tl-timemarker.tl-timemarker-active .tl-timemarker-content-container h2.tl-headline {
     color: #0F4D81 !important;
 }
