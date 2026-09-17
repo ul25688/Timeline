@@ -45,10 +45,27 @@ making it visually distinct from the inactive markers which stay at #EFCA77 (lig
     color: #213A5E !important;  /* darker text on hover */
 }
 
-/*style the pole specifically for the active slide state.*/
+/*style the pole specifically for the active slide state. 
+Active marker pole: line-left is the standard flag pole.
+line-right is only displayed for markers with an end date,
+so style line-left only to avoid double-thickening those markers. */
 
 .tl-timemarker.tl-timemarker-active .tl-timemarker-line-left {
     border-left-width: 2px !important;
     border-left-color: rgba(221, 191, 120, 0.7) !important;
 }
 
+/* Time axis background */
+.tl-timeaxis-background {
+    background-color: #F8F6F0 !important;
+}
+
+/* Hide minor ticks */
+.tl-timeaxis-minor .tl-timeaxis-tick:before {
+    display: none !important;
+}
+
+/* Subtle major ticks */
+.tl-timeaxis-major .tl-timeaxis-tick:before {
+    background-color: #B8B1A3 !important;
+}
