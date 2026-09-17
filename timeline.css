@@ -44,3 +44,9 @@ making it visually distinct from the inactive markers which stay at #EFCA77 (lig
 .tl-timemarker.tl-timemarker-active .tl-timemarker-content-container:hover h2.tl-headline {
     color: #213A5E !important;  /* darker text on hover */
 }
+
+/*style the pole specifically for the active slide state.*/
+
+.tl-timemarker.tl-timemarker-active .tl-timemarker-line {
+    background-color: #EFCA77 !important;
+}
