@@ -47,6 +47,6 @@ making it visually distinct from the inactive markers which stay at #EFCA77 (lig
 
 /*style the pole specifically for the active slide state.*/
 
-.tl-timemarker.tl-timemarker-active .tl-timemarker-line-left {
+.tl-timemarker.tl-timemarker-active .tl-timemarker-line-right {
     background-color: #EFCA77 !important;
 }
