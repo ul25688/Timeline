@@ -51,5 +51,6 @@ making it visually distinct from the inactive markers which stay at #EFCA77 (lig
 .tl-timemarker-line-left,
 .tl-timemarker.tl-timemarker-active
 .tl-timemarker-line-right {
+    border-left-width: 2px !important;
     border-left-color: rgba(221, 191, 120, 0.7) !important;
 }
