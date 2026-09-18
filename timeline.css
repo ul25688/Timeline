@@ -51,7 +51,7 @@ line-right is only displayed for markers with an end date,
 so style line-left only to avoid double-thickening those markers. */
 
 .tl-timemarker.tl-timemarker-active .tl-timemarker-line-left {
-    border-left-width: 2px !important;
+    border-left-width: 2.5px !important;
     border-left-color: rgba(221, 191, 120, 0.7) !important;
 }
 
@@ -60,7 +60,7 @@ so style line-left only to avoid double-thickening those markers. */
     background-color: #F8F6F0 !important;
 }
 
-/* Hide minor ticks */
+/* Hide the entire minor tick, including its label */
 .tl-timeaxis-minor {
     display: none !important;
 }
@@ -68,4 +68,8 @@ so style line-left only to avoid double-thickening those markers. */
 /* Subtle major ticks */
 .tl-timeaxis-major .tl-timeaxis-tick:before {
     background-color: #B8B1A3 !important;
+}
+
+.tl-text-content-container {
+    max-width: 500px !important;
 }
