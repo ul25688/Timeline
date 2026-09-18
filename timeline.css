@@ -70,30 +70,16 @@ so style line-left only to avoid double-thickening those markers. */
     background-color: #B8B1A3 !important;
 }
 
+/* Expands the opening slide's content area while retaining 80px side padding.
+Makes the title larger and uses Gallaudet blue.
+Applies only to the opening title slide.*/
 
-/* Opening slide — wide title, narrower intro text */
 .tl-slide.tl-slide-titleslide.tl-slide-text-only .tl-slide-content {
     width: 100% !important;
     padding-left: 80px !important;
     padding-right: 80px !important;
     box-sizing: border-box !important;
 }
-
-.tl-slide.tl-slide-titleslide.tl-slide-text-only .tl-text {
-    width: 100% !important;
-    max-width: none !important;
-}
-
-.tl-slide.tl-slide-titleslide.tl-slide-text-only .tl-text-headline-container {
-    width: 100% !important;
-    max-width: 1000px !important;
-}
-
-.tl-slide.tl-slide-titleslide.tl-slide-text-only .tl-text-content {
-    max-width: 500px !important;
-}
-
-
 
 .tl-slide.tl-slide-titleslide.tl-slide-text-only .tl-headline-title {
     font-size: 44px !important;
