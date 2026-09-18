@@ -74,11 +74,13 @@ so style line-left only to avoid double-thickening those markers. */
 padding-left creates space between the line and the text.
 Does not affect regular image slides.*/
 
-.tl-slide.tl-slide-titleslide.tl-slide-text-only .tl-text {
-    background-color: rgba(248, 246, 240, 0.92) !important;
-    padding: 30px 40px !important;
+/* Title-only panel on opening slide */
+.tl-slide.tl-slide-titleslide.tl-slide-text-only .tl-text-headline-container {
+    background-color: #F5F0E6 !important;
+    padding: 25px 30px !important;
     border-left: 2px solid #EFCA77 !important;
 }
+
 
 
 .tl-slide#conclusion.tl-slide-text-only .tl-text {
