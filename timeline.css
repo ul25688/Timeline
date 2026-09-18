@@ -70,6 +70,7 @@ so style line-left only to avoid double-thickening those markers. */
     background-color: #B8B1A3 !important;
 }
 
-.tl-slide.tl-slide-titleslide.tl-slide-text-only {
-    background-color: #F5F0E6 !important;
+.tl-slide.tl-slide-titleslide.tl-slide-text-only .tl-text {
+    border-left: 4px solid #EFCA77 !important;
+    padding-left: 30px !important;
 }
