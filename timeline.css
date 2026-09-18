@@ -105,10 +105,8 @@ Applies only to the opening title slide.*/
 
 
 
-/* Slide titles color to blue. Size adjusted */
-h2.tl-headline {
+/* All slide headlines */
+.tl-slide h2.tl-headline {
     font-size: 44px !important;
     line-height: 1.05 !important;
-    color: #0F4D81 !important;
 }
-
