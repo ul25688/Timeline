@@ -75,9 +75,11 @@ padding-left creates space between the line and the text.
 Does not affect regular image slides.*/
 
 .tl-slide.tl-slide-titleslide.tl-slide-text-only .tl-text {
+    background-color: rgba(248, 246, 240, 0.92) !important;
+    padding: 30px 40px !important;
     border-left: 2px solid #EFCA77 !important;
-    padding-left: 30px !important;
 }
+
 
 .tl-slide#conclusion.tl-slide-text-only .tl-text {
     border-left: 2px solid #EFCA77 !important;
