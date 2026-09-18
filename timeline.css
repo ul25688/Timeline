@@ -79,6 +79,11 @@ so style line-left only to avoid double-thickening those markers. */
     box-sizing: border-box !important;
 }
 
+.tl-slide.tl-slide-titleslide.tl-slide-text-only .tl-text {
+    width: 100% !important;
+    max-width: none !important;
+}
+
 .tl-slide.tl-slide-titleslide.tl-slide-text-only .tl-headline-title {
     font-size: 44px !important;
     line-height: 1.05 !important;
