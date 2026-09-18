@@ -93,16 +93,17 @@ Applies only to the opening title slide.*/
 }
 
 
-/*Adds a vertical yellow accent line to the text-only intro and concluding slides.
-padding-left creates space between the line and the text.
-Does not affect regular image slides.*/
 
+/* Conclusion — title with underline */
 
-
-.tl-slide#conclusion.tl-slide-text-only .tl-text {
-    border-left: 2px solid #EFCA77 !important;
-    padding-left: 30px !important;
+.tl-slide#conclusion.tl-slide-text-only .tl-headline {
+    color: #0F4D81 !important;
+    padding-bottom: 15px !important;
+    border-bottom: 2px solid rgba(239, 202, 119, 0.7) !important;
+    margin-bottom: 25px !important;
 }
+
+
 
 /* Slide titles color to blue */
 h2.tl-headline {
