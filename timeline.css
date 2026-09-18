@@ -69,7 +69,3 @@ so style line-left only to avoid double-thickening those markers. */
 .tl-timeaxis-major .tl-timeaxis-tick:before {
     background-color: #B8B1A3 !important;
 }
-
-.tl-text-content-container {
-    max-width: 500px !important;
-}
