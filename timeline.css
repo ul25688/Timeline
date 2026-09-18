@@ -88,9 +88,15 @@ Applies only to the opening title slide.*/
 }
 
 
-/*Adds a vertical yellow accent line to the text-only concluding slides.
+/*Adds a vertical yellow accent line to the text-only intro and concluding slides.
 padding-left creates space between the line and the text.
 Does not affect regular image slides.*/
+
+/* Opening slide — yellow accent */
+.tl-slide.tl-slide-titleslide.tl-slide-text-only .tl-text {
+    border-left: 2px solid #EFCA77 !important;
+    padding-left: 30px !important;
+}
 
 .tl-slide#conclusion.tl-slide-text-only .tl-text {
     border-left: 2px solid #EFCA77 !important;
